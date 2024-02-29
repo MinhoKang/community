@@ -1,0 +1,57 @@
+.signUpBtn {
+  width: 450px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.modalMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.btnContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 100%;
+  }
+}
+
+.divideLine {
+  margin-bottom: 40px;
+  //   display: flex;
+  //   flex-basis: 100%;
+  //   align-items: center;
+  //   color: rgba(0, 0, 0, 0.35);
+  //   font-size: 12px;
+  //   margin: 8px 0px;
+  //   ::before,
+  //   ::after {
+  //     content: '';
+  //     flex-grow: 1;
+  //     background: rgba(0, 0, 0, 0.35);
+  //     height: 1px;
+  //     font-size: 0px;
+  //     line-height: 0px;
+  //     margin: 0px 16px;
+  //   }
+}
